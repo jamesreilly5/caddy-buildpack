@@ -1,1 +1,1 @@
-web: bash ./setup_caddy.sh && bash ./caddy -conf="HerokuCaddyfile"
+web: bash ./setup_caddy.sh && ./caddy -conf="HerokuCaddyfile"
