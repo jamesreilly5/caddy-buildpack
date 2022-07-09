@@ -1,1 +1,1 @@
-web: chmod a+x setup_caddy.sh chmod a+x caddy && bash ./setup_caddy.sh && bash ./caddy -conf="HerokuCaddyfile"
+web: bash ./setup_caddy.sh && bash ./caddy -conf="HerokuCaddyfile"
