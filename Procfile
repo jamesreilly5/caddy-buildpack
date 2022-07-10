@@ -1,1 +1,1 @@
-web: bash ./setup_caddy.sh && ./caddy run - config Caddyfile.heroku
+web: bash ./setup_caddy.sh && ./caddy run - config HerokuCaddyfile
